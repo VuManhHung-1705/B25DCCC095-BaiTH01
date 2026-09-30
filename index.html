@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân - Vũ Mạnh Hùng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Menu -->
+    <header>
+        <h2>Vũ Mạnh Hùng</h2>
+        <ul id="menu">
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#skills">Kỹ năng</a></li>
+            <li><a href="#projects">Dự án</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </header>
+
+    <!-- Giới thiệu -->
+    <section id="about" class="hero">
+        <div class="hero-content">
+            <h1>Xin chào, tôi là Vũ Mạnh Hùng</h1>
+            <p>Tôi là sinh viên đang học thiết kế và lập trình web cơ bản. Chào mừng bạn đến với trang web của tôi!</p>
+            <a href="#contact" class="btn">Liên hệ với tôi</a>
+        </div>
+    </section>
+
+    <!-- Kỹ năng -->
+    <section id="skills">
+        <h2>Kỹ năng của tôi</h2>
+        <div class="box">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Xây dựng cấu trúc trang web</p>
+            </div>
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Trang trí và làm giao diện đẹp</p>
+            </div>
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Tạo hiệu ứng và tương tác</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dự án -->
+    <section id="projects" class="bg-light">
+        <h2>Dự án tiêu biểu</h2>
+        <div class="box">
+            <div class="card">
+                <h3>Dự án 1</h3>
+                <p>Trang web giới thiệu cá nhân.</p>
+            </div>
+            <div class="card">
+                <h3>Dự án 2</h3>
+                <p>Trang web bán hàng đơn giản.</p>
+            </div>
+            <div class="card">
+                <h3>Dự án 3</h3>
+                <p>Ứng dụng quản lý công việc.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Liên hệ -->
+    <section id="contact">
+        <h2>Liên hệ với tôi</h2>
+        <form id="myForm">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Họ và tên...">
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Địa chỉ Email...">
+            </div>
+            <div class="form-group">
+                <textarea id="msg" placeholder="Nội dung tin nhắn..."></textarea>
+            </div>
+            <button type="submit" class="btn">Gửi đi</button>
+            <p id="error" class="error-text"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; <span id="year"></span> Vũ Mạnh Hùng. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
